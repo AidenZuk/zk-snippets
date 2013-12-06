@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+    <div class="carousel" data-role="carousel">
+        <!-- zkstart example -->
+    <div class="slide">
+      ${1:first slider}
+    </div>
+     
+    <div class="slide">
+    ${1:next slider}
+    </div>
+     <!-- zkfor ftl 
+          <#list  mainBody.select('...') as list>
+          <div class="slide"> \$\{list\} </div>
+          </#list>
+          -->
+    <!--zkend example -->
+    <a class="controls left"><i class="icon-arrow-left-3"></i></a>
+    <a class="controls right"><i class="icon-arrow-right-3"></i></a>
+    </div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bm-carousel</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope> 
+</snippet>

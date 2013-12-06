@@ -1,0 +1,50 @@
+<snippet>
+  <content><![CDATA[
+  <div id="hot-product" class="owl-carousel">
+                     
+    <div class="item"> 
+      
+      <div class="listview">
+
+        <!-- zkstart example -->
+        <a href="#" class="list ">
+          
+        <div class="list-content">
+          <img src="images/excel2013icon.png" class="icon">
+          <div class="data">
+            <span class="list-title"><h3>title</h3></span>
+           
+            <span class="list-remark">description</span>
+
+             <div class="progress-bar small" data-role="progress-bar" data-value="0"></div>
+
+             <h4 class=" place-right">description <i class="icon-play-alt "></i></h4>
+          </div>
+        </div>        
+        </a>
+      </div>
+    <!-- zkfor ftl 
+      <#list  mainBody.select('\$\{uuid\}')  as list>
+        <a href="#" class="list ">
+            
+          <div class="list-content">
+            <img src="\$\{list.select('...img-src')\}" class="shadow">
+            <div class="data">
+              <span class="list-title"><h3>\$\{list.select('...title')\}</h3></span>
+              <div class="progress-bar small" data-role="progress-bar" data-value="0"></div>
+              <span class="list-remark">\$\{list.select('...descript')}</span>
+            </div>
+          </div>        
+          </a>
+        </div>
+      </#list>
+            -->
+    <!--zkend example -->      
+  </div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

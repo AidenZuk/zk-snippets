@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<div class="accordion ${1:with-marker}" data-role="accordion">
+  <div class="accordion-frame">
+  <a href="${2:link-url}" class="heading">${2:caption}</a>
+  <div class="content"><!-- zkstart example -->
+    sample test
+     <!-- zkfor ftl 
+          \$\{mainBody.select('${3:uuid}')\}
+          -->
+   <!--zkend example -->
+  </div>
+  </div>
+ 
+
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

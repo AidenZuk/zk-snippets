@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+<ul id="carousel" class="elastislide-list">
+  <!-- zkstart example -->
+            <li><a href="#"><img src="images/small/1.jpg" alt="image01" /></a></li>
+            <li><a href="#"><img src="images/small/2.jpg" alt="image02" /></a></li>
+            <li><a href="#"><img src="images/small/3.jpg" alt="image03" /></a></li>
+            <li><a href="#"><img src="images/small/4.jpg" alt="image04" /></a></li>
+            <li><a href="#"><img src="images/small/5.jpg" alt="image05" /></a></li>
+            <li><a href="#"><img src="images/small/6.jpg" alt="image06" /></a></li>
+            <li><a href="#"><img src="images/small/7.jpg" alt="image07" /></a></li>
+            <li><a href="#"><img src="images/small/8.jpg" alt="image08" /></a></li>
+<!-- zkfor ftl 
+          <#list  mainBody.select('...').select('li') as list>
+          <li>\$\{list\}  </li>
+          </#list>
+          -->
+  <!--zkend example -->
+          </ul>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bm-elasit</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>text.html</scope>
+</snippet>

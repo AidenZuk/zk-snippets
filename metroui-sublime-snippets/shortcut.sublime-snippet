@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<button class="shortcut">
+<i class="icon-${1:icon}"></i>
+${2:text}
+<small class="bg-cobalt fg-white">${3:badge}</small>
+</button>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>bm-shortcut</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

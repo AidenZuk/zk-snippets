@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+    <nav class="navigation-bar ${1:dark}">
+    <nav class="navigation-bar-content">
+    ${2}
+    </nav>
+    </nav>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bm-nav</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

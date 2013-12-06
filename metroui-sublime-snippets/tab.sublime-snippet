@@ -1,0 +1,41 @@
+<snippet>
+  <content><![CDATA[
+    <div class="tab-control" data-role="tab-control">
+    <ul class="tabs">
+       <!-- zkstart example -->
+    <li class="active"><a href="#_page_1">Tab 1</a></li>
+    <li><a href="#_page_2">Other Tab</a></li>
+    <li><a href="#_page_3"><i class="icon-rocket"></i></a></li>
+    <li class="place-right"><a href="#_page_4"><i class="icon-cog"></i></a></li>
+            <!-- zkfor ftl 
+          <#list  mainBody.select('${1:uuid}').select('li') as list>
+          <li>\$\{list\}  </li>
+          </#list>
+          -->
+  <!--zkend example -->
+    </ul>
+     
+    <div class="frames">
+    <div class="frame" id="_page_1"><!-- zkstart example -->
+      <!-- zkfor ftl 
+          \$\{mainBody.select('${2:uuid}')\}
+          -->
+    <!--zkend example --></div>
+    <div class="frame" id="_page_2"><!-- zkstart example -->
+      <!-- zkfor ftl 
+          \$\{mainBody.select('${3:uuid}')\}
+          -->
+    <!--zkend example --></div>
+    <div class="frame" id="_page_3"><!-- zkstart example -->
+      <!-- zkfor ftl 
+          \$\{mainBody.select('${4:uuid}')\}
+          -->
+    <!--zkend example --></div>
+    </div>
+    </div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bm-tab</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope> 
+</snippet>

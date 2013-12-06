@@ -1,0 +1,45 @@
+<snippet>
+  <content><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+
+    <meta name="description" content="${1:description}">
+    <meta name="keywords" content="Metro, ui, responsive, css, framework, library">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1, maximum-scale=1, target-densitydpi = device-dpi ″>
+    <link rel="stylesheet" href="css/metro-bootstrap.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <link href="js/prettify/prettify.css" rel="stylesheet">
+
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/jquery/jquery.widget.min.js"></script>
+    <script src="js/prettify/prettify.js"></script>
+
+    <script src="js/metro/metro-loader.js"></script>
+    <script src="js/docs.js"></script>
+    
+
+    <title>${2:page title}</title>
+</head>
+<body class="metro">
+    <header class="bg-dark" data-load="header.html"></header>
+    ${3:content}
+
+    <footer class="bg-dark no-margin">
+        <div class="container tertiary-text bg-dark fg-white">
+            2012-2013, Metro UI CSS &copy; by  <a href="mailto:sergey@pimenov.com.ua" class="fg-yellow">Sergey Pimenov</a>
+        </div>
+    </footer>
+
+    <script src="js/hitua.js"></script>
+
+</body>
+</html>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bm-html</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+    <div class="button-set" ${1:data-role="button-group"}>
+    	   <!-- zkstart example -->
+    <button class="active">One</button>
+    <button>Two</button>
+    <button>Three</button>
+    <button>Four</button>
+    <button>Five</button>
+    <!-- zkfor ftl 
+     <#list  mainBody.select('') as list>
+     <button> \$\{list\} </button>
+     </#list>
+     -->
+    </div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bm-btn-group</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope> 
+</snippet>

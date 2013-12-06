@@ -1,0 +1,63 @@
+<snippet>
+  <content><![CDATA[
+    <div class="fluent-menu">
+    <ul class="tabs-holder">
+       <!-- zkstart example -->
+    <li><a href="#content_id_1">Tab Name 1</a></li>
+    ...
+    <li><a href="#content_id_n">Tab Name N</a></li>
+
+    <!-- zkfor ftl 
+          <#list  mainBody.select('').select('li') as list>
+          <li>\$\{list\}  </li>
+          </#list>
+          -->
+    <!--zkend example -->
+    </ul>
+     
+    <div class="tabs-content">
+    <div class="tab-panel" id="content_id_1">
+    <div class="tab-panel-group">
+       <div class="tab-group-content">
+    <button class="fluent-big-button"><span class="icon-mail"></span>Create<br />message</button>
+    <div class="tab-content-segment">
+    <button class="fluent-big-button dropdown-toggle">
+    <span class="icon-pictures"></span>
+    <span class="button-label">Create<br />element</span>
+    </button>
+    <ul class="dropdown-menu" data-role="dropdown">
+    <li><a href="#">Message</a></li>
+    <li><a href="#">Event</a></li>
+    <li><a href="#">Meeting</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+    <div class="tab-content-segment">
+    <button class="fluent-big-button">
+    <span class="icon-cancel"></span>
+    <span class="button-label">Delete</span>
+    </button>
+    </div>
+    <div class="tab-content-segment">
+    <button class="fluent-tool-button"><img src="images/Notebook-Save.png"></button>
+    <button class="fluent-tool-button"><img src="images/Folder-Rename.png"></button>
+    <button class="fluent-tool-button"><img src="images/Calendar-Next.png"></button>
+    </div>
+    </div>
+    </div>
+    </div>
+    ...
+    <div class="tab-panel" id="content_id_n">
+    <div class="tab-panel-group">
+    <div class="tab-group-content">set of menu elements</div>
+    <div class="tab-group-caption">group name</div>
+    </div>
+    </div>
+    </div>
+    </div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bm-menu-fluent</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope> 
+</snippet>

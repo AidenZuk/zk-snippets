@@ -1,0 +1,36 @@
+<snippet>
+  <content><![CDATA[
+    <div class="listview">
+    <a href="#" class="list ${5:shadow|selected}">
+      <!-- zkstart example -->
+    <div class="list-content">
+    <img src="images/excel2013icon.png" class="icon">{1:img or icon}
+    <div class="data">
+    <span class="list-title">${2:title}</span>
+    <div class="rating small no-margin" data-role="rating" data-stars="5">${3:infos}</div>
+    <span class="list-remark">${4:description}</span>
+    </div>
+    </div>
+    <!-- zkfor ftl 
+    <div class="list-content">
+      <img src="mainBody.select('...')" class="icon">
+        <div class="data">
+          <span class="list-title">\$\{mainBody.select('...')\}</span>
+
+          <div class="rating small no-margin" data-role="rating" data-stars="5">\$\{mainBody.select('...(infos)')\}</div>
+             <span class="list-remark">\$\{mainBody.select('...(smallinfos)')\}</span>
+          <#list  mainBody.select('').select('li') as list>
+           </div>
+    </div>
+          -->
+  <!--zkend example -->
+    </a>
+     
+   
+    </div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bm-listview</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>text.html</scope>
+</snippet>

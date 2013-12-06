@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+ <div class="element ${1:place-right}">
+<a class="dropdown-toggle" href="#">${2:menu-caption}</a>
+<ul class="dropdown-menu" data-role="dropdown">
+<li><a href="#">Main</a></li>
+<!-- zkstart example -->
+<li><a href="#">File Open</a></li>
+<li class="divider"></li>
+<li><a href="#">Print...</a></li>
+<li class="divider"></li>
+<li><a href="#">Exit</a></li>
+<!-- zkfor ftl 
+          <#list  mainBody.select('').select('li') as list>
+          <li> \$\{list\}</li>
+          </#list>
+          -->
+<!--zkend example -->
+</ul>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bm-nav-dropdown</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope> 
+</snippet>

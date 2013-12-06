@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+    <div class="grid">
+    <div class="row">
+    <div class="${1:span}">${2:div_data}</div>
+    <div class="${3:span}">${4:div_data}</div>
+    </div>
+    </div>
+
+Hello, ${1:this} is a ${2:snippet}.
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>bm-grid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

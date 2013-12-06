@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<button class="image-button ${1:warning} ${2:image-left}">
+${3:caption}
+<img src="${4:url}" class="bg-cobalt">
+</button>
+]]></content>
+		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>bm-img-btn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
